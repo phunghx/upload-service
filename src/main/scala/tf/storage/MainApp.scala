@@ -1,7 +1,6 @@
-package xed.storage
+package tf.storage
 
-
-import xed.storage.service.VideoConvertService
+import tf.storage.service.VideoConvertService
 
 
 object MainApp {

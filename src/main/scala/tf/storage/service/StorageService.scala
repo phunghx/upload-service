@@ -1,4 +1,4 @@
-package xed.storage.service
+package tf.storage.service
 
 import java.io._
 import java.net.URL
@@ -6,8 +6,9 @@ import java.net.URL
 import com.sun.corba.se.impl.naming.cosnaming.NamingUtils
 import net.coobird.thumbnailator.Thumbnails
 import org.apache.commons.io.{FileUtils, IOUtils}
-import xed.storage.controller.http.Stats
-import xed.storage.util.{Utils, ZConfig}
+import tf.storage.controller.http.Stats
+import tf.storage.util.{Utils, ZConfig}
+import tf.storage.util.ZConfig
 
 class StorageService {
 

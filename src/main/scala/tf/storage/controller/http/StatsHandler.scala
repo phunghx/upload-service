@@ -1,4 +1,4 @@
-package xed.storage.controller.http
+package tf.storage.controller.http
 
 import java.io.InputStream
 import java.util.concurrent.atomic.AtomicLong
@@ -11,7 +11,7 @@ import javax.ws.rs.Path
 import javax.ws.rs.Produces
 import javax.ws.rs.QueryParam
 import javax.ws.rs.core.Context
-import xed.storage.controller.http.Stats.statsUploadImg
+import Stats.statsUploadImg
 
 case class ActionStats(name: String) {
   val nTotal: AtomicLong = new AtomicLong()

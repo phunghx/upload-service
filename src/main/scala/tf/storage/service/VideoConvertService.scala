@@ -1,4 +1,4 @@
-package xed.storage.service
+package tf.storage.service
 
 import java.io.{File, FilenameFilter}
 import java.util
@@ -9,9 +9,10 @@ import java.util.function.Consumer
 import org.apache.commons.io.FileUtils
 import org.apache.commons.io.filefilter.{DirectoryFileFilter, IOFileFilter, TrueFileFilter}
 import org.apache.log4j.Logger
-import xed.storage.controller.http.Stats
-import xed.storage.service.VideoConvertService.{_convertAudio, deleteUploadFile}
-import xed.storage.util.{Utils, ZConfig}
+import tf.storage.controller.http.Stats
+import VideoConvertService.{_convertAudio, deleteUploadFile}
+import tf.storage.util.{Utils, ZConfig}
+import tf.storage.util.ZConfig
 
 import sys.process._
 

@@ -1,7 +1,7 @@
-package xed.storage
+package tf.storage
 
 import org.scalatest.FlatSpec
-import xed.storage.util.Utils
+import tf.storage.util.Utils
 
 class UtilsTest extends FlatSpec {
 

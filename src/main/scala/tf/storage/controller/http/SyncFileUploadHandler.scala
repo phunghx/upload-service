@@ -1,4 +1,4 @@
-package xed.storage.controller.http
+package tf.storage.controller.http
 
 import java.io.InputStream
 
@@ -8,8 +8,9 @@ import javax.ws.rs.core.Context
 import javax.ws.rs.{GET, POST, Path, Produces}
 import org.apache.log4j.Logger
 import org.glassfish.jersey.media.multipart.{FormDataContentDisposition, FormDataParam}
-import xed.storage.service.StorageService
-import xed.storage.util.{Utils, ZConfig}
+import tf.storage.service.StorageService
+import tf.storage.util.ZConfig
+import xed.storage.util.ZConfig
 
 @Path("/upload")
 @Produces(Array("text/plain"))

@@ -1,10 +1,11 @@
-package xed.storage
+package tf.storage
 
 import java.io.{DataInputStream, File, FileInputStream}
 
 import org.scalatest.FlatSpec
-import xed.storage.service.StorageService
-import xed.storage.util.{Utils, ZConfig}
+import tf.storage.service.StorageService
+import tf.storage.util.{Utils, ZConfig}
+import tf.storage.util.ZConfig
 
 class StorageServiceTest extends FlatSpec {
   final val storageService = new StorageService()

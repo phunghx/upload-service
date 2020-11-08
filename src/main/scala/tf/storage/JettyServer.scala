@@ -1,4 +1,4 @@
-package xed.storage
+package tf.storage
 
 import java.net.BindException
 
@@ -8,7 +8,7 @@ import org.eclipse.jetty.server.{Connector, Server}
 import org.eclipse.jetty.server.nio.SelectChannelConnector
 import org.eclipse.jetty.servlet.ServletContextHandler
 import org.eclipse.jetty.util.thread.QueuedThreadPool
-import xed.storage.util.ZConfig
+import tf.storage.util.ZConfig
 
 class JettyServer {
 
